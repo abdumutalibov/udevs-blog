@@ -29,7 +29,7 @@ export default function BlogItem() {
     <div className="container blog-item__container">
       <div className="blog-item__user">
         <img className="user-image" src={userImg} alt="user" />
-        <span className="user-name">Dilorom Aliyeva</span>
+        <span className="user-name">Alisa</span>
         <div className="user-buttons">
           <button className="btn btn-follow">Follow</button>
           <button className="btn btn-saved">
@@ -39,7 +39,7 @@ export default function BlogItem() {
       <div className="blog-item__content">
         <img src={cardImgL} alt="card" className="blog-item__img" />
         <span className="image-owner">
-          Фото: <i>Dilorom Alieva</i>
+          Фото: <i>Alisa</i>
         </span>
         <div className="card-info">
           <p className="card-date">18:26 11.01.2021</p>
